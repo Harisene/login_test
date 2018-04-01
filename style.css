@@ -1,0 +1,149 @@
+body
+{
+	background :url('background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+.form
+{
+	margin-left: 550px;
+	margin-top:  -60px;
+}
+
+input[type=password]
+{
+	height:35px;
+	width: 200px;
+	margin-left: 30px;
+	border-radius: 5px;
+	border-width: 0px;
+	padding-left: 15px;
+	border-color: rgb(117,168,221);
+	background: rgb(102,158,217);
+
+}
+
+input[type=email]
+{
+	height:35px;
+	width: 200px;
+	border-radius: 5px;
+	border-width: 0px;
+	padding-left: 15px;
+	border-color: rgb(117,168,221);
+	background: rgb(102,158,217);
+}
+
+#loginbutton
+{
+	width: 100px;
+	margin-left: 20px;
+	margin-top: -5px;
+
+
+}
+
+
+#person
+{
+	margin-left: 70px;
+	margin-top: -370px;
+}
+
+.line
+{
+
+	width: 1200px;
+	height: 2px;
+	background-color: rgb(255,124,124);
+	margin-top: 30px;
+	margin-left: -20px;
+}
+
+.line_bottom
+{
+
+	width: 1200px;
+	height: 2px;
+	background-color: rgb(255,124,124);
+	}
+
+#scorum_logo
+{
+	width: 30%;
+	height: 15%;
+	margin-top: 40px;
+	margin-left: 10px;
+	border: none;
+}
+
+pre
+{
+	margin-left: 450px;
+	padding-top: 40px;
+}
+
+#register
+{
+	width:150px;
+	height: 50px;
+	margin-left: 900px;
+	margin-top: -20px;
+	background-color: red;
+	font-size: 24px;
+
+	
+}
+
+#cloud_left
+{
+background:url('cloud.png') 80px 200px;
+position:fixed;
+background-repeat: no-repeat;
+top:0px;
+width:35%;
+height:40%;
+background-size: 60px;
+}
+
+
+#cloud_right
+{
+background:url('cloud1.png') 440px 370px;
+position:absolute;
+background-repeat: no-repeat;
+top:0px;
+width: 80%;
+height: 60%;
+background-size: 70px;
+}
+
+
+
+
+
+#p1
+{
+	color:black;
+	margin-left: 720px;
+	margin-top: -30px;
+	font-size: 20px;
+
+}
+
+#p2
+{
+ color: white;
+ margin-top: 5px;
+ margin-left: 5px;
+}
+
+::placeholder 
+{
+    color: white;
+    
+}
